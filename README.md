@@ -497,7 +497,7 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [@thomas:2007]: http://dx.doi.org/10.1145/1287620.1287622
 
-[@stdlib/array/uint32]: https://github.com/stdlib-js/stdlib
+[@stdlib/array/uint32]: https://github.com/stdlib-js/array-uint32
 
 </section>
 
