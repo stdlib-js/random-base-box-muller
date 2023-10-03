@@ -35,43 +35,30 @@ limitations under the License.
 
 > Standard normally distributed pseudorandom numbers using the [Box-Muller transform][box-muller].
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/random-base-box-muller
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-randn = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-box-muller@umd/browser.js' )
-```
-The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/random-base-box-muller/tags). For example,
-
-```javascript
-randn = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-box-muller@v0.1.0-umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var randn = require( 'path/to/vendor/umd/random-base-box-muller/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-box-muller@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.randn;
-})();
-</script>
+var randn = require( '@stdlib/random-base-box-muller' );
 ```
 
 #### randn()
@@ -412,13 +399,8 @@ var o = rand.toJSON();
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-box-muller@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var randn = require( '@stdlib/random-base-box-muller' );
 
 var seed;
 var rand;
@@ -445,11 +427,6 @@ rand = randn.factory({
 for ( i = 0; i < 100; i++ ) {
     console.log( rand() );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -519,8 +496,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/random-base-box-muller.svg
 [npm-url]: https://npmjs.org/package/@stdlib/random-base-box-muller
 
-[test-image]: https://github.com/stdlib-js/random-base-box-muller/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/random-base-box-muller/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/random-base-box-muller/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/random-base-box-muller/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/random-base-box-muller/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/random-base-box-muller?branch=main
@@ -561,7 +538,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [@thomas:2007]: http://dx.doi.org/10.1145/1287620.1287622
 
-[@stdlib/array/uint32]: https://github.com/stdlib-js/array-uint32/tree/umd
+[@stdlib/array/uint32]: https://github.com/stdlib-js/array-uint32
 
 </section>
 
