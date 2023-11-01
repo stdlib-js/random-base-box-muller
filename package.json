@@ -46,9 +46,9 @@
     "@stdlib/constants-float64-pi": "^0.1.1",
     "@stdlib/constants-float64-two-pi": "^0.1.1",
     "@stdlib/math-base-special-cos": "^0.1.0",
-    "@stdlib/math-base-special-ln": "^0.1.0",
+    "@stdlib/math-base-special-ln": "^0.1.1",
     "@stdlib/math-base-special-sin": "^0.1.0",
-    "@stdlib/math-base-special-sqrt": "^0.1.0",
+    "@stdlib/math-base-special-sqrt": "^0.1.1",
     "@stdlib/random-base-mt19937": "^0.1.0",
     "@stdlib/string-format": "^0.1.1",
     "@stdlib/types": "^0.1.0",
@@ -59,7 +59,7 @@
     "@stdlib/utils-noop": "^0.1.1"
   },
   "devDependencies": {
-    "@stdlib/array-uint32": "^0.1.0",
+    "@stdlib/array-uint32": "^0.1.1",
     "@stdlib/bench": "^0.1.0",
     "@stdlib/constants-uint32-max": "^0.1.1",
     "@stdlib/math-base-assert-is-nan": "^0.1.1",
