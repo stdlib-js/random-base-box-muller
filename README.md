@@ -453,6 +453,13 @@ for ( i = 0; i < 100; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/random-iter/box-muller`][@stdlib/random/iter/box-muller]</span><span class="delimiter">: </span><span class="description">create an iterator for generating pseudorandom numbers drawn from a standard normal distribution using the Box-Muller transform.</span>
+-   <span class="package-name">[`@stdlib/random-streams/box-muller`][@stdlib/random/streams/box-muller]</span><span class="delimiter">: </span><span class="description">create a readable stream for generating pseudorandom numbers drawn from a standard normal distribution using the Box-Muller transform.</span>
+
 </section>
 
 <!-- /.related -->
@@ -539,6 +546,14 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [@thomas:2007]: http://dx.doi.org/10.1145/1287620.1287622
 
 [@stdlib/array/uint32]: https://github.com/stdlib-js/array-uint32
+
+<!-- <related-links> -->
+
+[@stdlib/random/iter/box-muller]: https://github.com/stdlib-js/random-iter-box-muller
+
+[@stdlib/random/streams/box-muller]: https://github.com/stdlib-js/random-streams-box-muller
+
+<!-- </related-links> -->
 
 </section>
 
