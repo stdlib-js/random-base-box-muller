@@ -46,7 +46,7 @@
     "@stdlib/constants-float64-pi": "^0.2.1",
     "@stdlib/constants-float64-two-pi": "^0.2.1",
     "@stdlib/math-base-special-cos": "^0.2.1",
-    "@stdlib/math-base-special-ln": "^0.2.1",
+    "@stdlib/math-base-special-ln": "^0.2.3",
     "@stdlib/math-base-special-sin": "^0.2.1",
     "@stdlib/math-base-special-sqrt": "^0.2.1",
     "@stdlib/random-base-mt19937": "^0.2.1",
