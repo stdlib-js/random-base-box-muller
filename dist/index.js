@@ -1,4 +1,4 @@
-"use strict";var v=function(e,t){return function(){return t||e((t={exports:{}}).exports,t),t.exports}};var y=v(function(le,f){
+"use strict";var v=function(e,t){return function(){try{return t||e((t={exports:{}}).exports,t),t.exports}catch(r){throw (t=0, r)}};};var y=v(function(le,f){
 var T=require('@stdlib/math-base-special-sqrt/dist'),R=require('@stdlib/math-base-special-ln/dist'),j=require('@stdlib/math-base-special-sin/dist'),z=require('@stdlib/math-base-special-cos/dist'),J=require('@stdlib/constants-float64-two-pi/dist');function W(e){var t,r;return t=!0,a;function a(){var n,d,s,o;if(t){do n=e(),d=e();while(n===0);return s=T(-2*R(n)),o=J*d,r=s*z(o),t=!1,s*j(o)}return t=!0,r}}f.exports=W
 });var h=v(function(ce,p){
 var _=require('@stdlib/math-base-special-sqrt/dist'),F=require('@stdlib/math-base-special-ln/dist'),G=require('@stdlib/math-base-special-cos/dist'),U=require('@stdlib/constants-float64-pi/dist'),X=G(U);function k(e){var t=_(-2*F(e));return t*X}p.exports=k
